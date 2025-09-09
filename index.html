@@ -7,7 +7,15 @@
     <title>Drawing App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <canvas id="canvas" width="800" height="500"> </canvas>
+    <div class="toolbox">
+      <button id="decrease">-</button>
+      <span id="size">20</span>
+      <button id="increase">+</button>
+      <input type="color" id="color" />
+      <button id="clear">X</button>
+    </div>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
